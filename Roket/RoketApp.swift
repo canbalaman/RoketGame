@@ -11,7 +11,7 @@ import SwiftUI
 struct RoketApp: App {
     var body: some Scene {
         WindowGroup {
-            Welcomeview()
+            BoardView()
         }
     }
 }

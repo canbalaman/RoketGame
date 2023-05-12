@@ -14,6 +14,8 @@
 		61BB3CCE2A0BFCEF00FE115E /* Welcomeview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BB3CCD2A0BFCEF00FE115E /* Welcomeview.swift */; };
 		61BB3CD22A0C001500FE115E /* pngwing.com.png in Resources */ = {isa = PBXBuildFile; fileRef = 61BB3CD12A0C001500FE115E /* pngwing.com.png */; };
 		61BB3CD62A0C050500FE115E /* StoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BB3CD52A0C050500FE115E /* StoriesView.swift */; };
+		61CACE172A0EBD8D00ABD053 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CACE162A0EBD8D00ABD053 /* BoardView.swift */; };
+		61CACE1A2A0ECDF600ABD053 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 61CACE1C2A0ECDF600ABD053 /* Background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		61BB3CCD2A0BFCEF00FE115E /* Welcomeview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcomeview.swift; sourceTree = "<group>"; };
 		61BB3CD12A0C001500FE115E /* pngwing.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pngwing.com.png; sourceTree = "<group>"; };
 		61BB3CD52A0C050500FE115E /* StoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesView.swift; sourceTree = "<group>"; };
+		61CACE162A0EBD8D00ABD053 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		61CACE1B2A0ECDF600ABD053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/Background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +65,10 @@
 				61BB3CC12A0BFBD000FE115E /* ContentView.swift */,
 				61BB3CCD2A0BFCEF00FE115E /* Welcomeview.swift */,
 				61BB3CD52A0C050500FE115E /* StoriesView.swift */,
+				61CACE162A0EBD8D00ABD053 /* BoardView.swift */,
 				61BB3CC32A0BFBD100FE115E /* Assets.xcassets */,
 				61BB3CD12A0C001500FE115E /* pngwing.com.png */,
+				61CACE1C2A0ECDF600ABD053 /* Background.png */,
 				61BB3CC52A0BFBD100FE115E /* Preview Content */,
 			);
 			path = Roket;
@@ -135,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61BB3CC72A0BFBD100FE115E /* Preview Assets.xcassets in Resources */,
+				61CACE1A2A0ECDF600ABD053 /* Background.png in Resources */,
 				61BB3CD22A0C001500FE115E /* pngwing.com.png in Resources */,
 				61BB3CC42A0BFBD100FE115E /* Assets.xcassets in Resources */,
 			);
@@ -149,12 +156,25 @@
 			files = (
 				61BB3CD62A0C050500FE115E /* StoriesView.swift in Sources */,
 				61BB3CC22A0BFBD000FE115E /* ContentView.swift in Sources */,
+				61CACE172A0EBD8D00ABD053 /* BoardView.swift in Sources */,
 				61BB3CCE2A0BFCEF00FE115E /* Welcomeview.swift in Sources */,
 				61BB3CC02A0BFBD000FE115E /* RoketApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		61CACE1C2A0ECDF600ABD053 /* Background.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61CACE1B2A0ECDF600ABD053 /* Base */,
+			);
+			name = Background.png;
+			path = ../../../../Desktop;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		61BB3CC82A0BFBD100FE115E /* Debug */ = {
