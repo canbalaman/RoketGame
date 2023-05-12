@@ -12,10 +12,10 @@
 		61BB3CC42A0BFBD100FE115E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61BB3CC32A0BFBD100FE115E /* Assets.xcassets */; };
 		61BB3CC72A0BFBD100FE115E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61BB3CC62A0BFBD100FE115E /* Preview Assets.xcassets */; };
 		61BB3CCE2A0BFCEF00FE115E /* Welcomeview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BB3CCD2A0BFCEF00FE115E /* Welcomeview.swift */; };
-		61BB3CD22A0C001500FE115E /* pngwing.com.png in Resources */ = {isa = PBXBuildFile; fileRef = 61BB3CD12A0C001500FE115E /* pngwing.com.png */; };
+		61BB3CD22A0C001500FE115E /* Background in Resources */ = {isa = PBXBuildFile; fileRef = 61BB3CD12A0C001500FE115E /* Background */; };
 		61BB3CD62A0C050500FE115E /* StoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BB3CD52A0C050500FE115E /* StoriesView.swift */; };
 		61CACE172A0EBD8D00ABD053 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CACE162A0EBD8D00ABD053 /* BoardView.swift */; };
-		61CACE1A2A0ECDF600ABD053 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 61CACE1C2A0ECDF600ABD053 /* Background.png */; };
+		61CACE1E2A0ED0AC00ABD053 /* BoardBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 61CACE1D2A0ED0AC00ABD053 /* BoardBack.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,10 +25,10 @@
 		61BB3CC32A0BFBD100FE115E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61BB3CC62A0BFBD100FE115E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		61BB3CCD2A0BFCEF00FE115E /* Welcomeview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcomeview.swift; sourceTree = "<group>"; };
-		61BB3CD12A0C001500FE115E /* pngwing.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pngwing.com.png; sourceTree = "<group>"; };
+		61BB3CD12A0C001500FE115E /* Background */ = {isa = PBXFileReference; lastKnownFileType = file; path = Background; sourceTree = "<group>"; };
 		61BB3CD52A0C050500FE115E /* StoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesView.swift; sourceTree = "<group>"; };
 		61CACE162A0EBD8D00ABD053 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
-		61CACE1B2A0ECDF600ABD053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/Background.png; sourceTree = "<group>"; };
+		61CACE1D2A0ED0AC00ABD053 /* BoardBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BoardBack.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +67,8 @@
 				61BB3CD52A0C050500FE115E /* StoriesView.swift */,
 				61CACE162A0EBD8D00ABD053 /* BoardView.swift */,
 				61BB3CC32A0BFBD100FE115E /* Assets.xcassets */,
-				61BB3CD12A0C001500FE115E /* pngwing.com.png */,
-				61CACE1C2A0ECDF600ABD053 /* Background.png */,
+				61BB3CD12A0C001500FE115E /* Background */,
+				61CACE1D2A0ED0AC00ABD053 /* BoardBack.png */,
 				61BB3CC52A0BFBD100FE115E /* Preview Content */,
 			);
 			path = Roket;
@@ -141,9 +141,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				61BB3CC72A0BFBD100FE115E /* Preview Assets.xcassets in Resources */,
-				61CACE1A2A0ECDF600ABD053 /* Background.png in Resources */,
-				61BB3CD22A0C001500FE115E /* pngwing.com.png in Resources */,
+				61BB3CD22A0C001500FE115E /* Background in Resources */,
 				61BB3CC42A0BFBD100FE115E /* Assets.xcassets in Resources */,
+				61CACE1E2A0ED0AC00ABD053 /* BoardBack.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,18 +163,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		61CACE1C2A0ECDF600ABD053 /* Background.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				61CACE1B2A0ECDF600ABD053 /* Base */,
-			);
-			name = Background.png;
-			path = ../../../../Desktop;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		61BB3CC82A0BFBD100FE115E /* Debug */ = {
